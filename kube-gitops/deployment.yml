@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: pun-api
-        image: ghcr.io/blacklinkin/devops-go-example:1b719f744d2ca0ec3855f982d68ff59800aea844
+        image: ghcr.io/blacklinkin/devops-go-example:9eb4ce795aa415c5e65f6927b999ccd502da8ed0
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
